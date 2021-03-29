@@ -134,10 +134,10 @@ export function browserCapabilities(userAgent: string): Set<BrowserCapability> {
 
   const predicates = browserPredicates[browserName] || {};
   return new Set(
-    Array
-    .from(Object.keys(predicates) as BrowserCapability[])
-    .filter(capability => predicates[capability](ua))
-  )
+    Array.from(
+      Object.keys(predicates) as BrowserCapability[]
+    ).filter((capability) => predicates[capability](ua))
+  );
 }
 
 /**
