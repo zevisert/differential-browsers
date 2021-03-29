@@ -2,7 +2,7 @@
 
 # differential-browsers
 
-> 💡 This library is a fork of Polymer/tools/packages/browser-capabilities, but the repository has been dead for two years. The biggest offender here is Anaheim edge that is now chromium based.
+> 💡 This library is a fork of [Polymer/tools/packages/browser-capabilities](https://github.com/Polymer/tools/tree/master/packages/browser-capabilities), but the repository has been dead for two years. The biggest offender here is Anaheim edge that is now chromium based.
 
 
 A JavaScript library that detects browser capabilities from a user agent string.
